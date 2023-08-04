@@ -2,14 +2,14 @@
     "version": 2,
     "name": "disqusjs-proxy",
     "alias": [
-        "duosuo.nobige.cn"
+        "disqusproxy.msdos6dot9.top"
     ],
     "routes": [
         {
             "src": "/(.*)",
             "headers": {
                 "cache-control": "public, max-age=21600",
-                "Access-Control-Allow-Origin":"https://nobige.cn"
+                "Access-Control-Allow-Origin":"https://blog.msdos6dot9.top"
             },
             "dest": "https://disqus.com/api/$1"
         }
